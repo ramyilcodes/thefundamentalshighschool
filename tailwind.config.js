@@ -18,7 +18,7 @@ module.exports = {
       },
 
       backgroundImage: {
-        hero: "url('./src/assets/bg-hero.svg')",
+        hero: "url('./images/PHOTO-2024-08-02-21-11-32 - Copy.jpg')",
         heroMobile: "url('./src/assets/bg-hero-mobile.svg')",
       },
 
