@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Fundamentals Highschool</title>
-    <link rel="stylesheet" href="output.css">
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="/images/High-School-Logo.fw_.png">
+
+    <link rel="stylesheet" href="/src/output.css">
     <!-- <link rel="stylesheet" href="./anim.css"> -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
@@ -18,6 +21,7 @@
             /* position:static; */
             height: 85%;
             z-index: 0;
+            /* overflow: hidden; */
         } 
     
         /* body {
@@ -29,6 +33,7 @@
             padding: 0;
             }
         */
+
         
         nav{
             z-index: 1;
@@ -63,7 +68,7 @@
     </style>
     <!-- <script defer src="app.js"></script> -->
 </head>
-<body class="text-darkGray bg-lightBlue">
+<body class="text-darkGray bg-lightBlue scroll-smooth">
     <nav class="bg-darkBlue w-full flex justify-center sticky top-0 left-0 py-[0.5rem]">
         <a href="#"><img src="../images/High-School-Logo.fw_.png" alt="" class="h-[4rem] mobile:h-[2.5rem]"></a>
     </nav>
@@ -87,7 +92,7 @@
 
 
 <!--   -    -   -   -   -   -   -   -   -   -   -   -   About Us   -   -   -   -   -   -   -   -   -    -->
-    <section class="text-[1.1rem] px-[4rem] mobile:text-[0.9rem] mobile:px-[2rem]" >
+    <section id="about" class="text-[1.1rem] px-[4rem] mobile:text-[0.9rem] mobile:px-[2rem]" >
         <h2 class="text-center font-semibold text-[2.5rem] my-[3rem] mobile:text-[1.7rem] mobile:my-[2rem]" data-aos="fade-down" >Welcome To<br> The Fundamentals High School (TFHS)
         </h2>
 
@@ -97,7 +102,7 @@
                 <p>Bolarinwa Adewale - Principal</p>
             </div>
             
-            <div class="w-[45rem] flex flex-col gap-[1.5rem] mobile:w-full">
+            <div class="w-[45rem] flex flex-col gap-[1.5rem] font-semibold mobile:w-full">
                 <p data-aos="fade-left">A premier educational institution located in Awoyaya, Ibeju-Lekki, Lagos,
                     Nigeria. Established by a visionary couple with a passion for molding young minds, our school is dedicated to
                     fostering
@@ -118,19 +123,19 @@
 
 <!--                                    Vision, Mission, Core Values                                 -->
     <section class="mt-[5rem] flex text-[1.1rem] px-[4rem] gap-[3rem] mobile:text-[0.9rem] mobile:px-[2rem] mobile:grid">
-        <div class=" bg-slate-50 place-content-center shadow-md rounded max-h-[20rem] p-[1rem] font-semibold text-center mobile:h-fit">
+        <div class=" bg-slate-50 place-content-center shadow-md rounded max-h-[20rem] p-[1rem] font-semibold text-center mobile:h-fit" data-aos="fade-down" data-aos-delay="150">
             <h3 class="text-center text-[1.5rem] mb-[0.5rem] font-bold">Vision</h3>
             <p class="text-lightGray text-[1rem]">To help students acquire the vital tools that will eneble them function as leaders of integrity</p>
         </div>
 
         
 
-        <div class="bg-slate-50 place-content-center shadow-md rounded max-h-[20rem] p-[1rem] font-semibold text-center mobile:h-fit">
+        <div class="bg-slate-50 place-content-center shadow-md rounded max-h-[20rem] p-[1rem] font-semibold text-center mobile:h-fit" data-aos="fade-up" data-aos-delay="300">
             <h3 class="text-center text-[1.5rem] mb-[0.5rem] font-bold">Mission</h3>
             <p class="text-lightGray text-[1rem]">To equip the students to achieve academic excellence and miral uprightneess through qualitative and extremely personalized teaching method, using love and contemporary educational tools</p>
         </div>
 
-        <div class="bg-slate-50 place-content-center shadow-md rounded min-h-[20rem] p-[1rem] font-semibold text-center">
+        <div class="bg-slate-50 place-content-center shadow-md rounded min-h-[20rem] p-[1rem] font-semibold text-center" data-aos="fade-down" data-aos-delay="150">
             <h3 class="text-center text-[1.5rem] mb-[0.5rem] font-bold">Core Values</h3>
             <ul class="text-lightGray text-[1rem]">
                 <li>Total training of students with Godly fear</li>
@@ -145,29 +150,29 @@
 
 
 <!--                                                     Location                                            -->
-    <section class="mt-[8rem] px-[4rem] w-full flex flex-wrap justify-between mobile:mt-[5rem] mobile:p-0">
+    <section id="contact" class="mt-[8rem] px-[4rem] w-full flex flex-wrap justify-between mobile:mt-[5rem] mobile:p-0">
 
             
-            <div class="flex flex-col gap-[2rem] mobile:px-[1.5rem] mobile:w-full mobile:items-center mobile:justify-center mobile:text-center mobile:gap-[3.5rem] mobile:mb-[3rem]">
+            <div class="flex flex-col gap-[2rem] mobile:px-[1.5rem] tablet:mb-[3rem] mobile:w-full mobile:items-center mobile:justify-center mobile:text-center mobile:gap-[3.5rem] mobile:mb-[3rem]">
 
-                <div class="flex items-center gap-[1.5rem] mobile:flex-col mobile:gap-[0.8rem]">
+                <div class="flex items-center gap-[1.5rem] mobile:flex-col mobile:gap-[0.8rem]" data-aos="fade-up">
                     <img src="/images/maps-and-flags.png" alt="">
                     <p class="font-bold ">Adebayo Folarin St, Awoyaya, Lekki 105101, Lagos</p>
                 </div>
                 
-                <div class="flex items-center gap-[1.5rem] mobile:flex-col mobile:gap-[0.8rem]">
+                <div class="flex items-center gap-[1.5rem] tablet:flex-col mobile:gap-[0.8rem]" data-aos="fade-up" data-aos-delay="50">
                     <img src="/images/time.png" alt="">
                     <p class="font-bold ">Monday - Friday<br> (8am - 5pm)</p>
                 </div>
                 
-                <div class="flex items-center gap-[1.5rem] mobile:flex-col mobile:gap-[0.8rem]">
+                <div class="flex items-center gap-[1.5rem] mobile:flex-col mobile:gap-[0.8rem]" data-aos="fade-up" data-aos-delay="50">
                     <img src="/images/telephone-handle-silhouette.png" alt="">
-                    <p class="font-bold ">+234 803 4638 397,<br> +234 </p>
+                    <p class="font-bold ">+234 803 4638 397,<br> +234 703 3217 864</p>
                 </div>
                 
-                <div class="flex items-center gap-[1.5rem] mobile:flex-col mobile:gap-[0.8rem]">
+                <div class="flex items-center gap-[1.5rem] mobile:flex-col mobile:gap-[0.8rem]" data-aos="fade-up" data-aos-delay="50">
                     <img src="/images/email.png" alt="">
-                    <p class="font-bold">thefundamentalshighschool@gmail.com</p>
+                    <p class="font-bold tablet:w-full ">thefundamentalshighschool@gmail.com</p>
                 </div>
 
             </div>
@@ -176,7 +181,8 @@
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.3858655379936!2d3.695405274831281!3d6.472710393519047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bfe86badb86ab%3A0xbeb0f5412c6e6d8b!2sThe%20Fundamentals%20Private%20School!5e0!3m2!1sen!2sng!4v1722958240157!5m2!1sen!2sng"
                 width="" height="" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
-                class="w-[800px] h-[400px] mobile:w-full mobile:h-[250px]">
+                class="w-[800px] h-[400px] mobile:w-full mobile:h-[250px]"
+                data-aos="fade-left">
             </iframe>
 
     </section>
@@ -191,7 +197,54 @@
         </div>
     </section> -->
 
-    <footer>
+    <footer class="bg-darkGray w-full mt-[3rem] px-[8rem] py-[3rem] grid place-items-center text-white tablet:px-[7rem] mobile:px-[2rem] mobile:py-[2rem]">
+
+        <div class="w-full flex justify-around items-start mb-[3rem] mobile:flex-col">
+            <h4 class="font-bold text-[2rem]" data-aos="fade-up">RAISING LEADERS OF INTEGRITY</h4>
+            <div data-aos="fade-left" data-aos-delay="100">
+                <p class="font-bold text-[1.1rem] mobile:mt-[2rem]">Quick Links</p>
+                <ul class="leading-6 font-thin">
+                    <a href="#about" class="hover:font-semibold">
+                        <li>About Us</li>
+                    </a>
+                    <a href="#contact" class="hover:font-semibold">
+                        <li>Contact</li>
+                    </a>
+                    <a href="#" class="hover:font-semibold">
+                        <li>Alumni</li>
+                    </a>
+                    <a href="#" class="hover:font-semibold">
+                        <li>Portal</li>
+                    </a>
+                </ul>
+            </div>
+            
+            <div data-aos="fade-left" data-aos-delay="500">
+                <p class="font-bold text-[1.1rem] mobile:mt-[2rem]">Contact</p>
+                <ul class="leading-6 font-thin">
+                    <li>thefundamentalshighschool@gmail.com</li>
+                    <li>+234 803 4638 397</li>
+                    <li>+234 703 3217 864</li>
+                    <li>Adebayo Folarin St, Awoyaya, Lekki 105101, Lagos</li>
+                    <li>Mon - Fri (8am - 5pm)</li>
+                    
+                    
+                    
+                </ul>
+
+                <span class="flex w-full gap-[1rem] mt-[1rem] mobile:justify-center">
+                    <a href=""><img src="/images/instagram.png" alt=""></a>
+                    <a href="https://web.facebook.com/p/The-Fundamentals-Private-School-100054391082770/?_rdc=1&_rdr"><img
+                            src="/images/facebook.png" alt=""></a>
+                    <a href="https://www.linkedin.com/in/bolarinwa-adewale-189a65208/?originalSubdomain=ng"><img
+                            src="/images/linkedin.png" alt=""></a>
+                </span>
+            </div>
+        </div>
+
+        <hr class="w-full h-1">
+       <p class="font-thin text-[0.9rem]">&copy; 2024 The Fundamentals High School</p>
+        
 
     </footer>
 
